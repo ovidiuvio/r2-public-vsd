@@ -1,7 +1,8 @@
-name = "r2-public-worker"
+name = "r2-public-vsd"
 main = "src/index.ts"
 compatibility_date = "2022-05-11"
 
 [[r2_buckets]]
 binding = 'PUBLIC' # <~ valid JavaScript variable name
-bucket_name = 'public'
+bucket_name = 'vsdebugpro'
+preview_bucket_name = 'vsdebugpro'
